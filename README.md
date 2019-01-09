@@ -1,5 +1,5 @@
 # ML-Flight-Delay-Prediction
-Prediction of flight delays in the United States using the dataset provided by the [Bureau of Transportation Statistics] (https://www.transtats.bts.gov/glossary.asp). Different ML techniques such as NN, Regression, Ridge/Lasso Regression were implemented before choosing the best model.
+Prediction of flight delays in the United States using the dataset provided by the [Bureau of Transportation Statistics](https://www.transtats.bts.gov/glossary.asp). Different ML techniques such as NN, Regression, Ridge/Lasso Regression were implemented before choosing the best model.
 
 Contains two code files, one for NN, and one Regression
 
