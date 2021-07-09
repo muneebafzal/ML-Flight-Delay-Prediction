@@ -1,13 +1,11 @@
-# ML-Flight-Delay-Prediction
-Prediction of flight delays in the United States using the dataset provided by the [Bureau of Transportation Statistics](https://www.transtats.bts.gov/glossary.asp). Different ML techniques such as NN, Regression, Ridge/Lasso Regression were implemented before choosing the best model.
+# Flight Delay Prediction
 
-Contains two code files, one for NN, and one Regression
+Flight delays in the United States were predicted using the dataset provided by the [Bureau of Transportation Statistics](https://www.transtats.bts.gov/glossary.asp). Different ML techniques such as NNs and Ridge/Lasso Regression were implemented before choosing the best model.
 
-1. In the beginning, we peform data pre-processing and do feature, selection, encoding in pandas.
+- In the beginning, we peform data pre-processing and feature selection in Pandas
 
-2. Then, we convert the data to numpy array. (x_train) and (y_train). We can input them in our 
-algorithms (NN) and Regression).
+- Next, we input the processed data into our models - Regression and Neural Networks (NN)
 
-3. Note that for NN, we use Pytorch library. So we convert numpy array in tenors when we are doing NN.
+- For regression, different techniques (Ridge/Lasso) were employed
 
-4. Then, different regression types and techniques were tried in the end. 
+- Requirements: Pytorch, numpy, pandas, scikit-learn
